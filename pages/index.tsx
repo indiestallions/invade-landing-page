@@ -54,8 +54,9 @@ const Home: NextPage = () => {
               so no one else does.
             </h1>
             <p className="my-6 w-5/6">
-               Invade is built to provide effective and contineous security testing
-               because the old pentesting practices are becoming obsolete.
+              Invade is built to provide effective and contineous security
+              testing because the old pentesting practices are becoming
+              obsolete.
             </p>
             <a
               className="group flex w-fit items-center rounded-md bg-primary-red px-6 py-3 text-primary-white"
@@ -90,7 +91,6 @@ const Home: NextPage = () => {
             name="is built to simplify security testing"
             title="Manage, Prioritize and fix."
             subtext="Invade’s easy-to-use SaaS platform lets you manage and prioritize what needs to be fixed and shamelessly integrate insights to  your existing workflow."
-"
             imageURI="/image-3.png"
           />
           <Steps
