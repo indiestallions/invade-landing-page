@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         </nav>
       </header>
       <main>
-        <section className=" flex h-[40rem] flex-col justify-center">
+        <section className="mb-9 flex h-[30rem] flex-col justify-center">
           <div className="mx-auto flex w-1/2 flex-col justify-center">
             <div className="my-6 flex items-center gap-2">
               <div className="h-0.5 w-10  bg-primary-red"></div>
