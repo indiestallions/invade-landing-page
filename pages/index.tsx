@@ -1,84 +1,137 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { BsArrowRight } from 'react-icons/bs'
+import Steps from '../components/steps'
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+} from 'react-icons/ai'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="bg-primary-black py-10 text-primary-white md:px-20">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Invade</title>
+        <link rel="icon" href="/logo.svg" />
       </Head>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
+      <header className="flex items-center justify-between">
+        <h1 className="flex items-center gap-2 text-4xl font-black">
+          <Image src={'/logo.svg'} width={30} height={30} />
+          Invade
         </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
+        <nav className="text-sm">
+          <ul className="flex gap-4">
+            <li>
+              <a href="">Docs</a>
+            </li>
+            <li>
+              <a
+                className="text-primary-red"
+                href="https://lqt188qdqmu.typeform.com/to/UKd5NG6K"
+              >
+                Request demo
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section className=" flex h-[40rem] flex-col justify-center">
+          <div className="mx-auto flex w-1/2 flex-col justify-center">
+            <div className="my-6 flex items-center gap-2">
+              <div className="h-0.5 w-10  bg-primary-red"></div>
+              <p className="tracking-widest text-primary-red">
+                A security platform
+              </p>
+            </div>
+            <h1 className=" text-6xl">
+              Let us{' '}
+              <span className="text-primary-red">
+                [<span className="text-primary-white">invade</span>]
+              </span>
+              , so no one else does.
+            </h1>
+            <p className="my-6 w-5/6">
+              Leveraging automation and an elite crowd of hackers to put
+              security testing on autopilot.
             </p>
-          </a>
-
+            <a
+              className="group flex w-fit items-center rounded-md bg-primary-red px-6 py-3 text-primary-white"
+              href=""
+            >
+              Learn more
+              <BsArrowRight className="ml-2 transition-all group-hover:translate-x-3 group-active:translate-x-6" />
+            </a>
+          </div>
+        </section>
+        <section className="py-6">
+          <h2 className="my-8 text-center text-4xl">How does it work?</h2>
+          <Steps
+            step="01"
+            name="Get started"
+            title="Add all your internet-facing assets."
+            subtext="Invade does not need your source code or information, just the
+                  urls."
+            imageURI="/image-1.png"
+          />
+          <Steps
+            step="02"
+            name="begin scanning & tests"
+            title="What's now?"
+            subtext="Sit back and relax, your assets are in an autonomous hacking environment that continuously performs thousands of scans ad tests to find weaknesses, and vulnerabilities.
+"
+            leftImage={true}
+            imageURI="/image-2.jpg"
+          />
+          <Steps
+            step="03"
+            name="Workflow management"
+            title="Manage, Prioritize and fix."
+            subtext="Invade’s easy-to-use SaaS platform lets you manage and prioritize what needs to be fixed and seamlessly integrate your existing workflow.
+"
+            imageURI="/image-3.png"
+          />
+          <Steps
+            step="04"
+            name="check for vulnerabilities"
+            title="Need something ad-hoc?"
+            subtext="We have got you covered, you can schedule a compliance-based PenTest with the existing assets or a staging asset anytime and it takes only 12 hrs to get started."
+            leftImage={true}
+            imageURI="/image-4.jpg"
+          />
+        </section>
+        <div className="mx-auto mt-10 h-px w-1/2 bg-primary-white opacity-50"></div>
+        <section className="flex flex-col items-center py-6 ">
+          <h2 className="mb-6 text-center text-4xl">
+            Ready to get started? We can help.
+          </h2>
           <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            href="https://lqt188qdqmu.typeform.com/to/UKd5NG6K"
+            className="flex w-fit items-center rounded-md bg-primary-red px-6 py-3 text-primary-white"
           >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
+            Request Demo
           </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        </section>
+        <footer className="mt-24 flex justify-between py-6">
+          <div className="flex items-center gap-2 text-4xl font-black">
+            <Image src={'/logo.svg'} width={30} height={30} />
+            Invade
+          </div>
+          <div className="flex items-center gap-2 text-2xl font-black">
+            <a href="https://twitter.com/Invade_hq">
+              <AiFillTwitterCircle />
+            </a>
+            <a href="https://www.linkedin.com/company/invadehq/">
+              <AiFillLinkedin />
+            </a>
+            <a href="https://github.com/Invadehq">
+              <AiFillGithub />
+            </a>
+          </div>
+        </footer>
       </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
     </div>
   )
 }
