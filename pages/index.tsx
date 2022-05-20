@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             <div className="my-6 flex items-center gap-2">
               <div className="h-0.5 w-10  bg-primary-red"></div>
               <p className="tracking-widest text-primary-red">
-                A security platform
+                Security testing on autopilot
               </p>
             </div>
             <h1 className=" text-6xl">
@@ -51,11 +51,11 @@ const Home: NextPage = () => {
               <span className="text-primary-red">
                 [<span className="text-primary-white">invade</span>]
               </span>
-              , so no one else does.
+              so no one else does.
             </h1>
             <p className="my-6 w-5/6">
-              Leveraging automation and an elite crowd of hackers to put
-              security testing on autopilot.
+               Invade is built to provide effective and contineous security testing
+               because the old pentesting practices are becoming obsolete.
             </p>
             <a
               className="group flex w-fit items-center rounded-md bg-primary-red px-6 py-3 text-primary-white"
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
           <h2 className="my-8 text-center text-4xl">How does it work?</h2>
           <Steps
             step="01"
-            name="Get started"
+            name="Agentless security testing platfom"
             title="Add all your internet-facing assets."
             subtext="Invade does not need your source code or information, just the
                   urls."
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
           />
           <Steps
             step="02"
-            name="begin scanning & tests"
+            name="an autonomous hacking environment"
             title="What's now?"
             subtext="Sit back and relax, your assets are in an autonomous hacking environment that continuously performs thousands of scans ad tests to find weaknesses, and vulnerabilities.
 "
@@ -87,15 +87,15 @@ const Home: NextPage = () => {
           />
           <Steps
             step="03"
-            name="Workflow management"
+            name="is built to simplify security testing"
             title="Manage, Prioritize and fix."
-            subtext="Invade’s easy-to-use SaaS platform lets you manage and prioritize what needs to be fixed and seamlessly integrate your existing workflow.
+            subtext="Invade’s easy-to-use SaaS platform lets you manage and prioritize what needs to be fixed and shamelessly integrate insights to  your existing workflow."
 "
             imageURI="/image-3.png"
           />
           <Steps
             step="04"
-            name="check for vulnerabilities"
+            name="we never compromise, it’s invade"
             title="Need something ad-hoc?"
             subtext="We have got you covered, you can schedule a compliance-based PenTest with the existing assets or a staging asset anytime and it takes only 12 hrs to get started."
             leftImage={true}
