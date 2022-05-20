@@ -50,7 +50,7 @@ const Home: NextPage = () => {
               Let us{' '}
               <span className="text-primary-red">
                 [<span className="text-primary-white">invade</span>]
-              </span>
+              </span>{' '}
               so no one else does.
             </h1>
             <p className="my-6 w-5/6">
