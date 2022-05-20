@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { BsArrowRight } from 'react-icons/bs'
-import Steps from '../components/steps'
+import Steps from '../components/Steps'
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
