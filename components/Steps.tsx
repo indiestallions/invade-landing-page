@@ -20,9 +20,9 @@ const Steps = ({
   leftImage = false,
 }: StepsProps) => {
   return (
-    <div className="my-14 flex items-center justify-around gap-5">
-      <div className={`relative w-2/6 ${leftImage ? 'order-last' : ''}`}>
-        <span className="absolute -top-10 -left-10 -z-0 text-9xl opacity-25">
+    <div className="my-24  flex items-center justify-around gap-5 md:my-14">
+      <div className={`relative md:w-2/6 ${leftImage ? 'order-last' : ''}`}>
+        <span className="absolute -top-10 -z-0 text-9xl opacity-25 md:-left-10">
           {step}
         </span>
         <div>
@@ -37,7 +37,9 @@ const Steps = ({
           </a>
         </div>
       </div>
-      {imageURI && <Image src={imageURI} height={400} width={300} />}
+      <div className="hidden md:inline-block">
+        {imageURI && <Image src={imageURI} height={400} width={300} />}
+      </div>
     </div>
   )
 }

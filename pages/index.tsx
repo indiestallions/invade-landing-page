@@ -11,7 +11,7 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-primary-black py-10 text-primary-white md:px-20">
+    <div className="bg-primary-black py-10 px-3 text-primary-white md:px-20">
       <Head>
         <title>Invade</title>
         <link rel="icon" href="/logo.svg" />
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
       </header>
       <main>
         <section className="mb-9 flex h-[30rem] flex-col justify-center">
-          <div className="mx-auto flex w-1/2 flex-col justify-center">
+          <div className="mx-auto flex flex-col justify-center md:w-1/2">
             <div className="my-6 flex items-center gap-2">
               <div className="h-0.5 w-10  bg-primary-red"></div>
               <p className="tracking-widest text-primary-red">
@@ -114,7 +114,7 @@ const Home: NextPage = () => {
             Request Demo
           </a>
         </section>
-        <footer className="mt-24 flex justify-between py-6">
+        <footer className="mt-24 flex flex-col items-center justify-center gap-5 py-6 md:flex-row md:justify-between">
           <div className="flex items-center gap-2 text-4xl font-black">
             <Image src={'/logo.svg'} width={30} height={30} />
             Invade
