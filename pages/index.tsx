@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                 Security testing on autopilot
               </p>
             </div>
-            <h1 className=" text-6xl">
+            <h1 className="text-4xl md:text-6xl">
               Let us{' '}
               <span className="text-primary-red">
                 [<span className="text-primary-white">invade</span>]
