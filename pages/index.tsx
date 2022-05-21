@@ -54,7 +54,7 @@ const Home: NextPage = () => {
               so no one else does.
             </h1>
             <p className="my-6 w-5/6">
-              Invade is built to provide effective and contineous security
+              Invade is built to provide effective and continuous security
               testing because the old pentesting practices are becoming
               obsolete.
             </p>
