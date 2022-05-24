@@ -4,11 +4,11 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta property="og:title" content="Created to Invade." />
+        <meta property="og:title" content="Security Testing on Autopilot." />
         <meta property="og:image" content="/og-image.png" />
         <meta
           property="og:description"
-          content="Invade is a crowdsourced security testing platform, leveraging automation and an elite crowd of hackers to deliver faster, better and cheaper security testing for enterprises. Utilizing data to drive security testing and figure out bug classes in an industry specific verticals."
+          content="Invade is a continuous security testing platform, leveraging automation and an elite crowd of hackers to deliver faster, better and effective security testing for enterprises. Utilizing data to drive security testing and figure out bug classes in an industry specific verticals."
         />
         <meta property="og:type" content="website" />
 
@@ -17,7 +17,7 @@ export default function Document() {
         <meta property="twitter:title" content="Created to Invade." />
         <meta
           property="twitter:description"
-          content="Invade is a crowdsourced security testing platform, leveraging automation and an elite crowd of hackers to deliver faster, better and cheaper security testing for enterprises. Utilizing data to drive security testing and figure out bug classes in an industry specific verticals."
+          content="Invade is a continuous security testing platform, leveraging automation and an elite crowd of hackers to deliver faster, better and effective security testing for enterprises. Utilizing data to drive security testing and figure out bug classes in an industry specific verticals."
         />
         <meta property="twitter:image" content="/og-image.png" />
       </Head>
