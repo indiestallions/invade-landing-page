@@ -73,7 +73,7 @@ const Home: NextPage = () => {
             step="01"
             name="Agentless security testing platfom"
             title="Add all your internet-facing assets."
-            subtext="Invade does not need your source code or any information, just the
+            subtext="Invade does not need your source code or any informations, just the
                   urls."
             imageURI="/image-1.png"
           />
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
             step="02"
             name="an autonomous hacking environment"
             title="What's now?"
-            subtext="Sit back and relax, your assets are in an autonomous hacking environment that continuously performs thousands of scans ad tests to find weaknesses, and vulnerabilities.
+            subtext="Sit back and relax, your assets are in an autonomous hacking environment that continuously performs thousands of scans and tests to find weaknesses, and vulnerabilities.
 "
             leftImage={true}
             imageURI="/image-2.jpg"
@@ -90,14 +90,14 @@ const Home: NextPage = () => {
             step="03"
             name="is built to simplify security testing"
             title="Manage, Prioritize and fix."
-            subtext="Invade’s easy-to-use SaaS platform lets you manage and prioritize what needs to be fixed and shamelessly integrate insights to  your existing workflow."
+            subtext="Invade’s easy-to-use SaaS platform lets you manage and prioritize what needs to be fixed and seamlessly integrate insights into  your existing workflow."
             imageURI="/image-3.png"
           />
           <Steps
             step="04"
             name="we never compromise, it’s invade"
             title="Need something ad-hoc?"
-            subtext="We have got you covered, you can schedule a compliance-based Pentest with the existing assets or a staging asset anytime and it takes only 12 hrs to get started."
+            subtext="We have got you covered, you can schedule a compliance-based Pentest with the existing assets or a staging asset anytime and it takes only 12 hours to get started."
             leftImage={true}
             imageURI="/image-4.jpg"
           />
