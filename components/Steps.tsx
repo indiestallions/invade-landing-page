@@ -32,7 +32,10 @@ const Steps = ({
           </div>
           <h3 className="text-bold text-left text-5xl">{title}</h3>
           <p className="my-4">{subtext}</p>
-          <a href="" className="flex w-fit items-center text-primary-red">
+          <a
+            href="https://invadehq.notion.site/Learn-More-3f2f22894f50407f896a85c4d3878706"
+            className="flex w-fit items-center text-primary-red"
+          >
             Read more <BsArrowRight className="ml-2" />
           </a>
         </div>

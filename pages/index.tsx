@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             </p>
             <a
               className="group flex w-fit items-center rounded-md bg-primary-red px-6 py-3 text-primary-white"
-              href=""
+              href="https://invadehq.notion.site/Learn-More-3f2f22894f50407f896a85c4d3878706"
             >
               Learn more
               <BsArrowRight className="ml-2 transition-all group-hover:translate-x-3 group-active:translate-x-6" />
