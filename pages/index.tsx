@@ -96,7 +96,7 @@ const Home: NextPage = () => {
           <Steps
             step="04"
             name="we never compromise, it’s invade"
-            title="Need something ad-hoc?"
+            title="Need a SOC2 pentest?"
             subtext="We have got you covered, you can schedule a compliance-based Pentest with the existing assets or a staging asset anytime and it takes only 12 hours to get started."
             leftImage={true}
             imageURI="/image-4.jpg"
